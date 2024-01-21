@@ -1,5 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
-
+import { Routes, Route } from "react-router-dom";
 import {
   About,
   Contact,
@@ -10,24 +9,22 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
-
+import Archives from "./pages/Archives";
+import AppMain from "./AppMain";
+import Team from "./pages/Team";
 const App = () => {
   return (
-    <BrowserRouter>
-      <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-          <Navbar />
-          <Hero />
-        </div>
-        <About />
-        <Experience />
-        <Tech />
-        <div className="relative z-0">
-          <Contact />
-          <StarsCanvas />
-        </div>
+    <div className="relative z-0 bg-primary">
+      <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <Navbar />
       </div>
-    </BrowserRouter>
+      <Routes>
+          <Route path="/" element={<AppMain/>} />
+          <Route path="/archives" element={<Archives />} />
+          <Route path="/team" element={<Team />} />
+        </Routes>
+    </div>
+
   );
 };
 

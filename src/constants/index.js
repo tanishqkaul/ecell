@@ -26,44 +26,99 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+    
   },
   {
     id: "work",
-    title: "Initiatives",
+    title: "Ongoing Initiatives",
+    
   },
   {
     id: "contact",
     title: "Contact",
+    
   },
   {
-    id: "archives",
+    id: "Archives",
     title: "Archives",
+ 
   },
   {
     id: "team",
     title: "Team",
+   
   }
 ];
 
-const services = [
+const TeamNames = [
   {
-    title: "Resources",
+    title: "HASLEPRENEURS",
     icon: web,
   },
   {
-    title: " Network",
+    title: " NEC",
     icon: mobile,
   },
   {
-    title: "Skills",
+    title: "Esummit",
     icon: backend,
   },
   {
-    title: "AI / Machine Learning Developer",
+    title: "Collabs",
+    icon: brain,
+  },
+  {
+    title: "HASLEPRENEUR",
+    icon: web,
+  },
+  {
+    title: " NE",
+    icon: mobile,
+  },
+  {
+    title: "Esummt",
+    icon: backend,
+  },
+  {
+    title: "Collas",
+    icon: brain,
+  },
+  {
+    title: "HASLEPRENURS",
+    icon: web,
+  },
+  {
+    title: " EC",
+    icon: mobile,
+  },
+  {
+    title: "Esumit",
+    icon: backend,
+  },
+  {
+    title: "Collbs",
+    icon: brain,
+  },
+
+];
+const services = [
+  {
+    title: "HASLEPRENEURS",
+    icon: web,
+  },
+  {
+    title: " NEC",
+    icon: mobile,
+  },
+  {
+    title: "Esummit",
+    icon: backend,
+  },
+  {
+    title: "Collabs",
     icon: brain,
   },
 ];
-
 const technologies = [
   {
     name: "HTML 5",
@@ -232,4 +287,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects ,TeamNames};
