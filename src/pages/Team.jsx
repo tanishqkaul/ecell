@@ -8,7 +8,7 @@ import { styles } from "../styles";
 import { TeamNames } from "../constants";
 import { SectionWrapper2 } from "../hoc/index2";
 import { fadeIn, textVariant } from "../utils/motion";
-
+import { StarsCanvas } from "../components/canvas";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
@@ -39,7 +39,7 @@ const ServiceCard = ({ index, title, icon }) => (
 const Team = () => {
     return (
         <>
-        <div className="pt-2"></div>
+        <div className="pt-10"></div>
           <motion.div variants={textVariant()}>
             <p className={styles.sectionSubText}>Ecell Navi Mumbai</p>
             <h2 className={styles.sectionHeadText}> Our Team </h2>
@@ -57,6 +57,7 @@ const Team = () => {
               <ServiceCard key={name.title} index={index} {...name} />
             ))}
           </div>
+          <StarsCanvas />
         </>
       );
 };

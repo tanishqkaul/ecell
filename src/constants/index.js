@@ -214,7 +214,64 @@ const experiences = [
     ],
   },
 ];
+const Archives = [
+  {
+    title: "BOOTCAMP’23",
+    link: "https://www.linkedin.com/in/e-cell-nmims-navi-mumbaii/recent-activity/all/",
+    icon: webdev1,
+    iconBg: "#383E56",
+    date: "15th March-16th March 2023",
+    points: [
+      "Certification course affiliated with IIC to promote entrepreneurial mindset among students.",
+      "This Event was Sponsored by SPRK Technologies and Blackstone.",
+      "Guest speakers invited: Saurabh Jain - Co-founder Stable Money.",
+      "Sagar Chandani – Angel Investor, Startup coach",
+      "Kamal Kumawat - Co-founder at Edgistify",
+      "Sanchit Jain - AWS Ambassador",
+      "Anuj Sharma – Founder of ALSISAR Impact ",
+      "Hardik Prajapati – Director HPC Engineering co.",
 
+    ],
+  },
+  {
+    title: "FabLab at RIDDL",
+    link: "https://www.linkedin.com/in/e-cell-nmims-navi-mumbaii/recent-activity/all/",
+    company_name: "KJ Somaiya Campus",
+    icon: ai1,
+    iconBg: "#383E56",
+    date: "  25th February 2023",
+    points: [
+      "Objective: To gain exposure to the latest technologies and explore the possibilities of digital fabrication",
+      " A chance for us to meet like-minded people and to get inspired by the innovative projects being developed at the FabLab.",
+    ],
+  },
+  {
+    title: "QA Tester",
+    link: "https://www.linkedin.com/in/e-cell-nmims-navi-mumbaii/recent-activity/all/",
+    company_name: "Express Energy",
+    icon: energy1,
+    iconBg: "#383E56",
+    date: "Sept 2022 - Nov 2022",
+    points: [
+      "Identified, documented, and reported defects using issue tracking tools like Jira including clear and concise reproduction steps and screenshots.",
+      "Collaborated with developers to verify defect fixes and enhancements, ensuring that issues were resolved according to specifications and user requirements.",
+      "Designed and implemented automated test scripts using testing frameworks like Selenium and Appium.",
+    ],
+  },
+  {
+    title: "Supervisor Security Guard",
+    link: "https://www.linkedin.com/in/e-cell-nmims-navi-mumbaii/recent-activity/all/",
+    company_name: "Securitas",
+    icon: security1,
+    iconBg: "#E6DEDD",
+    date: "May 2020 - Sept 2022",
+    points: [
+      "Supervising the security staff, including new hires, and training.",
+      "Monitoring building access and identified all customers and employees .",
+      "Maintain daily logs of irregularities such as equipment, property damage, or theft.",
+    ],
+  },
+];
 const testimonials = [
   {
     testimonial:
@@ -287,4 +344,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects ,TeamNames};
+export { services, technologies, experiences, testimonials, projects ,TeamNames,Archives};
