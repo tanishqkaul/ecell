@@ -19,7 +19,7 @@ import {
   reactandthreewp,
   threejs2,
   vuejs,
-  firebase,
+  firebase,ADMIN,ex_event,ex_events,fin,int_events,int_event,logs1,mark1,mark2,PHOTO,pr1,pr2,pres1,pres2,rd1,rd2,spons1,spons2,tech1,tech2
 } from "../assets";
 
 export const navLinks = [
@@ -52,53 +52,83 @@ export const navLinks = [
 
 const TeamNames = [
   {
-    title: "HASLEPRENEURS",
-    icon: web,
+    title: "Tanishq Kaul",
+    position:"President",
+    icon: tech1,
   },
   {
     title: " NEC",
-    icon: mobile,
+    icon: pres1,
   },
   {
     title: "Esummit",
-    icon: backend,
+    icon: pres2,
   },
   {
-    title: "Collabs",
-    icon: brain,
+    title: "Bhoomi",
+    icon: fin,
   },
   {
     title: "HASLEPRENEUR",
-    icon: web,
+    icon: tech2,
   },
   {
     title: " NE",
-    icon: mobile,
+    icon: spons1,
   },
   {
     title: "Esummt",
-    icon: backend,
+    icon: spons2,
   },
   {
     title: "Collas",
-    icon: brain,
+    icon: mark1,
   },
   {
     title: "HASLEPRENURS",
-    icon: web,
+    icon: mark2,
   },
   {
     title: " EC",
-    icon: mobile,
+    icon: PHOTO,
   },
   {
     title: "Esumit",
-    icon: backend,
+    icon: pr1,
   },
   {
     title: "Collbs",
-    icon: brain,
+    icon: pr2,
   },
+  {
+    title: "Collas",
+    icon: ex_event,
+  },
+  {
+    title: "HASLEPRENURS",
+    icon: ex_events,
+  },
+  {
+    title: " EC",
+    icon: int_event,
+  },
+  {
+    title: "Esumit",
+    icon: int_events,
+  },
+  {
+    title: "Collbs",
+    icon: ADMIN,
+  },
+  {
+    title: "Collas",
+    icon: rd1,
+  },
+  {
+    title: "HASLEPRENURS",
+    icon: rd2,
+  },
+  
 
 ];
 const services = [

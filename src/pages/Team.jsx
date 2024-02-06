@@ -9,7 +9,7 @@ import { TeamNames } from "../constants";
 import { SectionWrapper2 } from "../hoc/index2";
 import { fadeIn, textVariant } from "../utils/motion";
 import { StarsCanvas } from "../components/canvas";
-const ServiceCard = ({ index, title, icon }) => (
+const ServiceCard = ({ index, title, icon ,position}) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -26,12 +26,16 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt="web-development"
-          className="w-16 h-16 object-contain"
+          style={{ width: "200px", height: "200px" }}
+          className="object-contain"
         />
 
         <h3 className="text-white text-[20px] font-bold text-center">
           {title}
         </h3>
+        <h4 className="text-white text-[15px] font-bold text-center">
+          {position}
+        </h4>
       </div>
     </motion.div>
   </Tilt>
