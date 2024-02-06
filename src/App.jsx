@@ -23,7 +23,13 @@ const App = () => {
           <Route path="/archives" element={<Archives />} />
           <Route path="/team" element={<Team />} />
         </Routes>
+        <div style={{ display: "flex", bottom: "20px", justifyContent: "center", alignItems: "center", fontSize: "16px"}}>
+          E-Cell, STME | Copyright © 2024. All rights reserved.
+          <br /><br />
+        </div>
     </div>
+
+    
 
   );
 };
