@@ -22,13 +22,17 @@ const ExperienceCard = ({ experience }) => (
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[70%] h-[70%] object-contain"
         />
       </div>
     }
   >
     <div>
-      <h3 className="text-whie text-[24px] font-bold">{experience.title}</h3>
+    <h3 className="text-whie text-[24px] font-bold  bg-tertiary py-2 px-4 rounded underline underline-offset-8 hover:text-blue-500  text-blue-500 sm:text-blue-200 sm:no-underline sm:hover:underline ">
+        <a href={experience.link} target="_blank" rel="noopener noreferrer" className=" ">
+          {experience.title}
+        </a>
+      </h3>
       <p
         className="text-secondary text-[16px] font-semibold"
         style={{ margin: 0 }}

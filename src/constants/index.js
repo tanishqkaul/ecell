@@ -1,7 +1,7 @@
 import {
-  mobile,
-  backend,
-  web,
+
+
+ 
   javascript,
   html,
   css,
@@ -14,12 +14,12 @@ import {
   ai1,
   webdev1,
   security1,
-  brain,
+ 
   threejswp,
   reactandthreewp,
   threejs2,
   vuejs,
-  firebase,
+  firebase,ADMIN,ex_event,ex_events,fin,int_events,int_event,logs1,mark1,mark2,PHOTO,pr1,pr2,pres1,pres2,rd1,rd2,spons1,spons2,spons3,tech1,tech2,HASSLE,ESUMMIT,COLLABS,NEC
 } from "../assets";
 
 export const navLinks = [
@@ -50,73 +50,115 @@ export const navLinks = [
   }
 ];
 
-const TeamNames = [
-  {
-    title: "HASLEPRENEURS",
-    icon: web,
+const TeamNames = [{
+  title: "Tanishq Kaul",
+    position:"President",
+    icon: tech1,
   },
   {
     title: " NEC",
-    icon: mobile,
+    
+    icon: pres1,
   },
   {
     title: "Esummit",
-    icon: backend,
+    
+    icon: pres2,
   },
   {
     title: "Collabs",
-    icon: brain,
+   
+    title: "Bhoomi",
+    icon: fin,
   },
   {
     title: "HASLEPRENEUR",
-    icon: web,
+
+    icon: tech2,
   },
   {
     title: " NE",
-    icon: mobile,
+   
+    icon: spons1,
   },
   {
     title: "Esummt",
-    icon: backend,
+    
+    icon: spons2,
   },
   {
     title: "Collas",
-    icon: brain,
+   
+    icon: mark1,
   },
   {
     title: "HASLEPRENURS",
-    icon: web,
+  
+    icon: mark2,
   },
   {
     title: " EC",
-    icon: mobile,
+   
+    icon: PHOTO,
   },
   {
     title: "Esumit",
-    icon: backend,
+  
+    icon: pr1,
   },
   {
     title: "Collbs",
-    icon: brain,
+  
+    icon: pr2,
+  },
+  {
+    title: "Collas",
+    icon: ex_event,
+  },
+  {
+    title: "HASLEPRENURS",
+    icon: ex_events,
+  },
+  {
+    title: " EC",
+    icon: int_event,
+  },
+  {
+    title: "Esumit",
+    icon: int_events,
+  },
+  {
+    title: "Collbs",
+    icon: ADMIN,
+  },
+  {
+    title: "Collas",
+    icon: rd1,
+  },
+  {
+    title: "HASLEPRENURS",
+    icon: rd2,
   },
 
 ];
 const services = [
   {
-    title: "HASLEPRENEURS",
-    icon: web,
+    title: "Halsepreneurs",
+    
+    icon: HASSLE,
   },
   {
     title: " NEC",
-    icon: mobile,
+    icon: NEC,
   },
   {
-    title: "Esummit",
-    icon: backend,
+    title: "E-summit",
+    icon: ESUMMIT,
+    
   },
   {
     title: "Collabs",
-    icon: brain,
+    icon: COLLABS,
   },
 ];
 const technologies = [
@@ -170,7 +212,7 @@ const experiences = [
   {
     title: "InnovateX",
     link: "https://www.instagram.com/reel/C2RIwT5x0nY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    icon: webdev1,
+    icon: COLLABS,
     iconBg: "#383E56",
     date: "12th Jan 2024",
     points: [
@@ -189,7 +231,7 @@ const experiences = [
   {
     title: "Shark Tank",
     link: "https://www.instagram.com/reel/C0_e6aJRKaw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    icon: webdev1,
+    icon: COLLABS,
     iconBg: "#383E56",
     date: "20th Dec 2023",
     points: [
@@ -207,7 +249,7 @@ const experiences = [
   {
     title: "Indo-German Collaboration Session",
     link: "https://www.instagram.com/reel/C0zSHpuxN_E/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    icon: webdev1,
+    icon: COLLABS,
     iconBg: "#383E56",
     date: "8th Dec 2023",
     points: [
@@ -224,7 +266,7 @@ const experiences = [
   {
     title: "The Hass-le preneurs",
     link: "https://www.instagram.com/reel/CxfP-T9Lac5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    icon: webdev1,
+    icon: COLLABS,
     iconBg: "#383E56",
     date: "Sept 2023",
     points: [
@@ -241,7 +283,7 @@ const Archives = [
   {
     title: "InnovateX",
     link: "https://www.instagram.com/reel/C2RIwT5x0nY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    icon: webdev1,
+    icon: COLLABS,
     iconBg: "#383E56",
     date: "12th Jan 2024",
     points: [
@@ -260,7 +302,7 @@ const Archives = [
   {
     title: "Shark Tank",
     link: "https://www.instagram.com/reel/C0_e6aJRKaw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    icon: webdev1,
+    icon: COLLABS,
     iconBg: "#383E56",
     date: "20th Dec 2023",
     points: [
@@ -278,7 +320,7 @@ const Archives = [
   {
     title: "Panel Discussion on Entrepreneurship Ecosystem in HEIs",
     link: "https://www.linkedin.com/posts/e-cell-nmims-navi-mumbaii_entrepreneurship-leadership-innovation-activity-7143608891858206721-MkLA/?utm_source=share&utm_medium=member_android",
-    icon: webdev1,
+    icon: COLLABS,
     iconBg: "#383E56",
     date: "15th Dec 2023",
     points: [
@@ -296,7 +338,7 @@ const Archives = [
   {
     title: "Indo-German Collaboration Session",
     link: "https://www.instagram.com/reel/C0zSHpuxN_E/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    icon: webdev1,
+    icon:COLLABS,
     iconBg: "#383E56",
     date: "8th Dec 2023",
     points: [
@@ -313,7 +355,7 @@ const Archives = [
   {
     title: "Tradiosity",
     link: "https://www.linkedin.com/posts/e-cell-nmims-navi-mumbaii_empowering-future-investors-the-tradiosity-activity-7133394072429314050-Z3TM?utm_source=share&utm_medium=member_desktop",
-    icon: webdev1,
+    icon:COLLABS,
     iconBg: "#383E56",
     date: "12th Oct 2023",
     points: [
@@ -327,7 +369,7 @@ const Archives = [
   {
     title: "The Hass-le preneurs",
     link: "https://www.instagram.com/reel/CxfP-T9Lac5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    icon: webdev1,
+    icon: HASSLE,
     iconBg: "#383E56",
     date: "Sept 2023",
     points: [
@@ -342,7 +384,7 @@ const Archives = [
   {
     title: "BOOTCAMP’23",
     link: "https://www.linkedin.com/in/e-cell-nmims-navi-mumbaii/recent-activity/all/",
-    icon: webdev1,
+    icon: COLLABS,
     iconBg: "#383E56",
     date: "15th March-16th March 2023",
     points: [
@@ -371,7 +413,7 @@ const Archives = [
   {
     title: "National Entrepreneurship Challenge (NEC)",
     link: "https://www.linkedin.com/in/e-cell-nmims-navi-mumbaii/recent-activity/all/",
-    icon: webdev1,
+    icon: COLLABS,
     iconBg: "#383E56",
     date: "Jan 2023",
     points: [
@@ -382,7 +424,7 @@ const Archives = [
   {
     title: "Fablab at Pune",
     link: "https://www.linkedin.com/in/e-cell-nmims-navi-mumbaii/recent-activity/all/",
-    icon: webdev1,
+    icon: COLLABS,
     iconBg: "#383E56",
     date: "22th Dec 2023",
     points: [
@@ -393,7 +435,7 @@ const Archives = [
   {
     title: "Venturex",
     link: "https://www.linkedin.com/in/e-cell-nmims-navi-mumbaii/recent-activity/all/",
-    icon: webdev1,
+    icon: COLLABS,
     iconBg: "#383E56",
     date: "30th Aug 2022",
     points: [
