@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
@@ -9,7 +7,7 @@ import { TeamNames } from "../constants";
 import { SectionWrapper2 } from "../hoc/index2";
 import { fadeIn, textVariant } from "../utils/motion";
 import { StarsCanvas } from "../components/canvas";
-const ServiceCard = ({ index, title, icon ,position}) => (
+const ServiceCard = ({ index, title, icon , subtitle}) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -25,17 +23,16 @@ const ServiceCard = ({ index, title, icon ,position}) => (
       >
         <img
           src={icon}
-          alt="web-development"
-          style={{ width: "200px", height: "200px" }}
-          className="object-contain"
+          className="w-16 h-16 object-contain green-pink-gradient"
+          style={{height: "100px", width: "100px", borderRadius: "50%", objectFit: "cover"}}
         />
 
         <h3 className="text-white text-[20px] font-bold text-center">
           {title}
         </h3>
-        <h4 className="text-white text-[15px] font-bold text-center">
-          {position}
-        </h4>
+        <h6 className="text-white text-[14px] text-center">
+          {subtitle}
+        </h6>
       </div>
     </motion.div>
   </Tilt>
