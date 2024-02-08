@@ -19,7 +19,7 @@ import {
   reactandthreewp,
   threejs2,
   vuejs,
-  firebase,ADMIN,ex_event,ex_events,fin,int_events,int_event,logs1,mark1,mark2,PHOTO,pr1,pr2,pres1,pres2,rd1,rd2,spons1,spons2,spons3,tech1,tech2,HASSLE,ESUMMIT,COLLABS,NEC
+  firebase,ADMIN,ex_event,ex_events,fin,int_events,int_event,logs1,logs2,mark1,mark2,PHOTO,pr1,pr2,pres1,pres2,rd1,rd2,spons1,spons2,spons3,tech1,tech2,HASSLE,ESUMMIT,COLLABS,NEC
 } from "../assets";
 
 export const navLinks = [
@@ -50,94 +50,116 @@ export const navLinks = [
   }
 ];
 
-const TeamNames = [{
-  title: "Tanishq Kaul",
-    position:"President",
-    icon: tech1,
+const TeamNames = [
+  {
+    title: "Dr. Aparna Rao",
+    subtitle: "Faculty in-charge",
+    icon: "https://media.licdn.com/dms/image/D5603AQGY-5caNseUzg/profile-displayphoto-shrink_100_100/0/1677745809397?e=1712793600&v=beta&t=tYe4RbQd6hlm_baW6sp93ENZLkwk4Z7gNdXND925r-I",
   },
   {
-    title: " NEC",
-    
+    title: "Sairaj Patil",
+    subtitle: "President",
     icon: pres1,
   },
   {
-    title: "Esummit",
-    
+    title: "Jahnvi Yadwad",
+    subtitle: "President",
     icon: pres2,
   },
   {
-    title: "Collabs",
-   
-    title: "Bhoomi",
+    title: "Bhoomi Nelwade",
+    subtitle: "Finance Head",
     icon: fin,
   },
   {
-    title: "HASLEPRENEUR",
-
+    title: "Tanishq Kaul",
+    subtitle: "Technical Head",
+    icon: tech1,
+  },
+  {
+    title: "Shreyas Bailkar",
+    subtitle: "Technical Head",
     icon: tech2,
   },
   {
-    title: " NE",
-   
-    icon: spons1,
-  },
-  {
-    title: "Esummt",
-    
-    icon: spons2,
-  },
-  {
-    title: "Collas",
-   
-    icon: mark1,
-  },
-  {
-    title: "HASLEPRENURS",
-  
-    icon: mark2,
-  },
-  {
-    title: " EC",
-   
-    icon: PHOTO,
-  },
-  {
-    title: "Esumit",
-  
-    icon: pr1,
-  },
-  {
-    title: "Collbs",
-  
-    icon: pr2,
-  },
-  {
-    title: "Collas",
-    icon: ex_event,
-  },
-  {
-    title: "HASLEPRENURS",
-    icon: ex_events,
-  },
-  {
-    title: " EC",
-    icon: int_event,
-  },
-  {
-    title: "Esumit",
-    icon: int_events,
-  },
-  {
-    title: "Collbs",
+    title: "Kunal Shenoy",
+    subtitle: "Admin Head",
     icon: ADMIN,
   },
   {
-    title: "Collas",
+    title: "Astha Kathar",
+    subtitle: "PR Head",
+    icon: pr1,
+  },
+  {
+    title: "Smit Patil",
+    subtitle: "PR Head",
+    icon: pr2,
+  },
+  {
+    title: "Arsh Mathur",
+    subtitle: "Event Interal Head",
+    icon: int_events,
+  },
+  {
+    title: "Antariksh Rajkonwar",
+    subtitle: "Event Interal Head",
+    icon: int_event,
+  },
+  {
+    title: "Navneeth Krishnan",
+    subtitle: "Marketing Head",
+    icon: mark1,
+  },
+  {
+    title: "Aarya Mishra",
+    subtitle: "Marketing Head",
+    icon: mark2,
+  },
+  {
+    title: "Aum Pradhan",
+    subtitle: "R&D Head",
     icon: rd1,
   },
   {
-    title: "HASLEPRENURS",
+    title: "Abhinav Kidav",
+    subtitle: "R&D Head",
     icon: rd2,
+  },
+  {
+    title: "Aaditya Singh",
+    subtitle: "Logistics Head",
+    icon: logs2,
+  },
+  {
+    title: "Lakshmeesh Mankame",
+    subtitle: "Logistics Head",
+    icon: logs1,
+  },
+  {
+    title: "Amarti Dhamele",
+    subtitle: "Events External Head",
+    icon: ex_event,
+  },
+  {
+    title: "Shreyans Rath",
+    subtitle: "Events External Head",
+    icon: ex_events,
+  },
+  {
+    title: "Shishir Walvekar",
+    subtitle: "Sponsorship Head",
+    icon: spons3,
+  },
+  {
+    title: "Jaival Desai",
+    subtitle: "Sponsorship Head",
+    icon: spons2,
+  },
+  {
+    title: "Shravani Devke",
+    subtitle: "Dynamic Media Head",
+    icon: PHOTO,
   },
 
 ];
