@@ -37,15 +37,16 @@ import fin from "../assets/Team/fin.png";
 import int_events from "../assets/Team/int_events.png";
 import int_event from "../assets/Team/int_event.png";
 import logs1 from "../assets/Team/logs1.png";
+import logs2 from "../assets/Team/logs2.png";
 import mark1 from "../assets/Team/mark1.png";
 import mark2 from "../assets/Team/mark2.png";
 import PHOTO  from "../assets/Team/PHOTO.png";
 import pr1 from "../assets/Team/pr1.png";
-import pr2 from "../assets/Team/Pr2.png";
+import pr2 from "../assets/Team/pr2.png";
 import pres1 from "../assets/Team/pres1.png";
 import pres2 from "../assets/Team/pres2.png";
 import rd1 from "../assets/Team/r&d1.png";
-import rd2 from "../assets/Team/R&D2.png";
+import rd2 from "../assets/Team/R&d2.png";
 import spons1 from "../assets/Team/spons1.png";
 import spons2 from "../assets/Team/spons2.png";
 import spons3 from "../assets/Team/spons3.png";
@@ -76,5 +77,5 @@ export {
   threejs,
   webdev1,
   threejswp,
-  reactandthreewp,ADMIN,ex_event,ex_events,fin,int_events,int_event,logs1,mark1,mark2,PHOTO,pr1,pr2,pres1,pres2,rd1,rd2,spons1,spons2,spons3,tech1,tech2,HASSLE,ESUMMIT,COLLABS,NEC
+  reactandthreewp,ADMIN,ex_event,ex_events,fin,int_events,int_event,logs1,logs2,mark1,mark2,PHOTO,pr1,pr2,pres1,pres2,rd1,rd2,spons1,spons2,spons3,tech1,tech2,HASSLE,ESUMMIT,COLLABS,NEC
 };
