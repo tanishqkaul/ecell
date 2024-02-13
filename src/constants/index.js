@@ -1,7 +1,4 @@
 import {
-
-
- 
   javascript,
   html,
   css,
@@ -55,6 +52,16 @@ const TeamNames = [
     title: "Dr. Aparna Rao",
     subtitle: "Faculty in-charge",
     icon: "https://media.licdn.com/dms/image/D5603AQGY-5caNseUzg/profile-displayphoto-shrink_100_100/0/1677745809397?e=1712793600&v=beta&t=tYe4RbQd6hlm_baW6sp93ENZLkwk4Z7gNdXND925r-I",
+  },
+  {
+    title: "Dr. Yogesh Jadhav",
+    subtitle: "Student Activity In-charge, STME",
+    icon: "https://media.licdn.com/dms/image/C5103AQFx6gsaxicW0w/profile-displayphoto-shrink_100_100/0/1586844860525?e=1713398400&v=beta&t=Ys_JW0KqyfCLrzNrAQHdTqwGvtNaJlNhyKHSy5pJ-E4",
+  },
+  {
+    title: "Dr. Toral Shah",
+    subtitle: "Assistant Professor",
+    icon: "https://media.licdn.com/dms/image/D4D03AQHKNG4E0PqILw/profile-displayphoto-shrink_100_100/0/1664251950136?e=1713398400&v=beta&t=kCap6HNdgRrqq3IC3ueGBZN3hqevGmzo0s7UXpXaGXE",
   },
   {
     title: "Sairaj Patil",
