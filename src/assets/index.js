@@ -7,6 +7,10 @@ import HASSLE from "./HASSLE.png";
 import ESUMMIT from "./ESUMMIT.png";
 import COLLABS from "./COLLAB.png";
 import NEC from "./NEC.png";
+import IDEAHUB from "./mascot.png";
+import mobile from "./mobile.png";
+import brain from "./brain.png";
+import web from "./web.png";
 
 import vuejs from "./tech/vuejs.png";
 import firebase from "./tech/firebase.png";
@@ -54,12 +58,14 @@ import tech1 from "../assets/Team/tech1.png";
 import tech2 from "../assets/Team/TECH2.png";
 export {
   logo,
-
+  mobile,
+  web,
+  brain,
   github,
   menu,
   close,
   vuejs,
-  
+  IDEAHUB,
   firebase,
   css,
   git,
