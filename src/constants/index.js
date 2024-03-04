@@ -11,40 +11,64 @@ import {
   ai1,
   webdev1,
   security1,
- 
   threejswp,
   reactandthreewp,
   threejs2,
   vuejs,
-  firebase,ADMIN,ex_event,ex_events,fin,int_events,int_event,logs1,logs2,mark1,mark2,PHOTO,pr1,pr2,pres1,pres2,rd1,rd2,spons1,spons2,spons3,tech1,tech2,HASSLE,ESUMMIT,COLLABS,NEC
+  firebase,
+  ADMIN,
+  ex_event,
+  ex_events,
+  fin,
+  int_events,
+  int_event,
+  logs1,
+  logs2,
+  mark1,
+  mark2,
+  PHOTO,
+  pr1,
+  pr2,
+  pres1,
+  pres2,
+  rd1,
+  rd2,
+  spons1,
+  spons2,
+  spons3,
+  tech1,
+  tech2,
+  HASSLE,
+  ESUMMIT,
+  COLLABS,
+  IDEAHUB,
+  NEC,
+  web,
+  mobile,
+  brain,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
-    
   },
   {
     id: "work",
     title: "Ongoing Initiatives",
-    
   },
   {
     id: "contact",
     title: "Contact",
-    
   },
   {
     id: "Archives",
     title: "Archives",
- 
   },
   {
     id: "team",
     title: "Team",
-   
-  }
+  },
 ];
 
 const TeamNames = [
@@ -52,16 +76,6 @@ const TeamNames = [
     title: "Dr. Aparna Rao",
     subtitle: "Faculty in-charge",
     icon: "https://media.licdn.com/dms/image/D5603AQGY-5caNseUzg/profile-displayphoto-shrink_100_100/0/1677745809397?e=1712793600&v=beta&t=tYe4RbQd6hlm_baW6sp93ENZLkwk4Z7gNdXND925r-I",
-  },
-  {
-    title: "Dr. Yogesh Jadhav",
-    subtitle: "Student Activity In-charge, STME",
-    icon: "https://media.licdn.com/dms/image/C5103AQFx6gsaxicW0w/profile-displayphoto-shrink_100_100/0/1586844860525?e=1713398400&v=beta&t=Ys_JW0KqyfCLrzNrAQHdTqwGvtNaJlNhyKHSy5pJ-E4",
-  },
-  {
-    title: "Dr. Toral Shah",
-    subtitle: "Assistant Professor",
-    icon: "https://media.licdn.com/dms/image/D4D03AQHKNG4E0PqILw/profile-displayphoto-shrink_100_100/0/1664251950136?e=1713398400&v=beta&t=kCap6HNdgRrqq3IC3ueGBZN3hqevGmzo0s7UXpXaGXE",
   },
   {
     title: "Sairaj Patil",
@@ -168,12 +182,11 @@ const TeamNames = [
     subtitle: "Dynamic Media Head",
     icon: PHOTO,
   },
-
 ];
 const services = [
   {
     title: "Halsepreneurs",
-    
+
     icon: HASSLE,
   },
   {
@@ -183,7 +196,6 @@ const services = [
   {
     title: "E-summit",
     icon: ESUMMIT,
-    
   },
   {
     title: "Collabs",
@@ -239,72 +251,158 @@ const technologies = [
 
 const experiences = [
   {
-    title: "InnovateX",
-    link: "https://www.instagram.com/reel/C2RIwT5x0nY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    title: "Black-Tie",
+    link: "#",
     icon: COLLABS,
     iconBg: "#383E56",
-    date: "12th Jan 2024",
+    date: "14th Mar 2024",
     points: [
-      "InnovateX event by E-Cell, GDSC, and Institutions Innovation Council at NMIMS Navi Mumbai.",
-      "Aimed to explore entrepreneurship in India and provide practical guidance.",
-      "Featured Faiz Malkani, co-founder of Rippl, to inspire and equip students.",
-      "Successfully bridged theoretical knowledge and practical challenges.",
-      "Malkani's engaging address and interactive Q&A left a lasting impact.",
-      "Facilitated networking opportunities and mentor connections.",
-      "Positive feedback and enriching experience showcased event's success.",
-      "Sparked inspiration and motivation for entrepreneurial endeavours.",
-      "Collaboration highlighted effectiveness of joint efforts in fostering innovation.",
-      "Expected impact on continued growth of entrepreneurial initiatives within NMIMS community.",
+      "Experience an evening of elegance and entrepreneurial excellence.",
+      "Crafted by NMIMS Navi Mumbai's E-Cell team.",
+      "Dress in your finest black attire for a night of enriching conversations.",
+      "Sumptuous dinner accompanied by motivational keynotes from industry leaders.",
+      "Blend of sophistication, interactivity, and outstanding performances.",
+      "Celebrate refinement meeting entrepreneurial brilliance.",
+      "Create lasting memories in a captivating atmosphere.",
     ],
   },
   {
-    title: "Shark Tank",
-    link: "https://www.instagram.com/reel/C0_e6aJRKaw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    title: "Pitch Perfect",
+    link: "#",
     icon: COLLABS,
     iconBg: "#383E56",
-    date: "20th Dec 2023",
+    date: "15th Mar 2024",
     points: [
-      "Shark Tank event hosted by E-Cell of STME, conducted offline and online for participant convenience.",
-      "Three rounds: quiz, pitching, advertising.",
-      "Top teams select product for pitch, others choose from remaining options."
-,      "Pitching judged on presentation, participation, etc.",
-      "Advertising reel posted for voting.",
-      "Single round with teams presenting ideas and solutions.",
-      "Judged by faculty member Dr. Toral Shah.",
-      "Overall, a 2-day event: offline on first day, online on second.",
-      "Great experience working with fellow students.",
+      "Competitive platform for aspiring entrepreneurs to present innovative startup ideas.",
+      "Pitch to a seasoned panel of judges, including experienced entrepreneurs and investors.",
+      "Opportunity for winners to secure funding or valuable mentorship.",
+      "Kickstart entrepreneurial journeys with support from industry experts.",
     ],
   },
   {
-    title: "Indo-German Collaboration Session",
-    link: "https://www.instagram.com/reel/C0zSHpuxN_E/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    title: "Startup Expo",
+    link: "#",
     icon: COLLABS,
     iconBg: "#383E56",
-    date: "8th Dec 2023",
+    date: "15th Mar 2024",
     points: [
-      "E-Cell of STME, Navi Mumbai organized interaction with Technical University, Braunschweig (TU BS), Germany.",
-      "Focus: Collaboration for Indo-German Centre for Entrepreneurship.",
-      "Faculty discussed NMIMS student opportunities in Summer Camp (Offline) and Summer School (Online), research, and exchange activities.",
-      "Students engaged on cross-border entrepreneurship vision and objectives.",
-      "Closing: Student entrepreneurs presented startup projects, receiving positive feedback.",
-      "Well-received event by faculty and students, anticipating future collaboration.",
-      "Objective: Explore collaboration for NMIMS Navi Mumbai and TU BS within Indo-German Centre.",
-      "Outcome: Base established for robust cross-border entrepreneurship relationship, fostering innovation and startup opportunities.",
+      "Dynamic platform dedicated to nurturing student entrepreneurs.",
+      "Provides a launchpad to showcase innovations and gain valuable feedback.",
+      "Connects student ventures with real investors, fostering growth and success.",
+      "Opportunities for funding and support beyond just showcasing.",
     ],
   },
   {
-    title: "The Hass-le preneurs",
-    link: "https://www.instagram.com/reel/CxfP-T9Lac5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    title: "Panel Discussions",
+    link: "#",
     icon: COLLABS,
     iconBg: "#383E56",
-    date: "Sept 2023",
+    date: "15th Mar 2023",
     points: [
-      "'Haslepreneurs': Dynamic Instagram talk show addressing contemporary issues in scams, policies, and entrepreneurial challenges.",
-      "Weekly episodes feature guest speakers offering fresh perspectives and expertise.",
-      "Primary focus on unraveling scam intricacies and analyzing current policies affecting entrepreneurs.",
-      "Aims to empower audience with knowledge and awareness in online entrepreneurial space.",
-      "Lively and interactive format encourages in-depth discussions, valuable insights, and practical advice.",
-      "Provides platform for navigating evolving online business landscape and avoiding pitfalls.",
+      "Platform for learning from accomplished entrepreneurs and industry leaders.",
+      "Engaging panel discussions covering vital topics like 'Scaling Your Startup' and 'Innovation in the Digital Age.'",
+      "Attendees gain invaluable insights, inspiration, and practical strategies for navigating the entrepreneurial landscape.",
+    ],
+  },
+  {
+    title: "Product Design Challenge",
+    link: "#",
+    icon: web,
+    iconBg: "#383E56",
+    date: "15th Mar 2023",
+    points: [
+      "Creative and innovative challenge focusing on designing solutions within specific themes, industries, technologies, or social issues.",
+      "Participants receive open-ended challenge briefs to inspire diverse and creative solutions.",
+      "Platform sparks creativity and encourages participants to think outside the box.",
+    ],
+  },
+  {
+    title: "Elevator Pitch Competition",
+    link: "#",
+    icon: brain,
+    iconBg: "#383E56",
+    date: "15th Mar 2023",
+    points: [
+      "Dedicated platform for individuals with startup ideas to pitch their concepts.",
+      "Four to five dedicated rooms equipped with assistants providing support and guidance during pitches.",
+      "Entrepreneurs utilize the platform to share innovative ideas and receive valuable assistance in refining their pitches.",
+    ],
+  },
+  {
+    title: "Entrepreneurial Engagement",
+    link: "#",
+    icon: brain,
+    iconBg: "#383E56",
+    date: "15th Mar 2023",
+    points: [
+      "Engaging competition for individuals to deliver elevator pitches.",
+      "Opportunity for participants to showcase their entrepreneurial ideas in a concise and compelling manner.",
+      "Promotes entrepreneurial engagement and fosters connections within the startup community.",
+    ],
+  },
+  {
+    title: "24-Hour Hackathon",
+    link: "#",
+    icon: mobile,
+    iconBg: "#383E56",
+    date: "15th Mar 2023",
+    points: [
+      "Traditional 24-hour coding competition focusing on real-world problem-solving.",
+      "Participants tackle practical challenges, fostering quick thinking and skill application under high-pressure conditions.",
+      "Teams comprise diverse skill sets, promoting collaboration to generate effective solutions.",
+    ],
+  },
+  {
+    title: "TechTalk Series",
+    link: "#",
+    icon: mobile,
+    iconBg: "#383E56",
+    date: "15th Mar 2023",
+    points: [
+      "Series featuring talks and workshops by industry experts and accomplished entrepreneurs.",
+      "Industry experts share insights and experiences, offering invaluable knowledge and inspiration.",
+      "Designed to educate, inspire, and empower the next generation of entrepreneurs by focusing on emerging technologies and fostering an entrepreneurial spirit.",
+    ],
+  },
+  {
+    title: "Squid Game",
+    link: "#",
+    icon: COLLABS,
+    iconBg: "#383E56",
+    date: "15th Mar 2023",
+    points: [
+      "Thrilling event inspired by the popular series, bringing intense challenges of 'Squid Game' into real life.",
+      "Adaptation of iconic challenges from the series with strategic gameplay and elimination rounds for suspense.",
+      "Provides immersive and unforgettable experience for participants.",
+    ],
+  },
+  {
+    title: "Dance Off",
+    link: "#",
+    icon: COLLABS,
+    iconBg: "#383E56",
+    date: "15th Mar 2023",
+    points: [
+      "Electrifying dance competition featuring solo, duet, and group performances.",
+      "High-energy performances for audience entertainment.",
+      "Recognition and learning opportunities for participants.",
+      "Networking possibilities with industry professionals and peers.",
+    ],
+  },
+  {
+    title: "IdeaHub: An Ultimate Tech Challenge",
+    link: "https://unstop.com/o/3QytUFK?lb=2vDqTG4&utm_medium=Share&utm_source=shortUrl&utm_campaign=unstop",
+    icon: IDEAHUB,
+    iconBg: "#383E56",
+    date: "11th - 16th Mar 2024",
+    points: [
+      "Dynamic 2-day tech challenge transcending traditional hackathons.",
+      "Focusing on fostering innovation and ideation across various domains.",
+      "Online presence on UnStop from 11th - 14th Mar, followed by on-campus ideathon rounds.",
+      "Opportunities for participants to tackle real-world problems and develop cutting-edge solutions.",
+      "Engaging activities, workshops, and mentorship sessions.",
+      "Networking opportunities with industry experts and peers.",
+      "Exciting prizes and recognition for outstanding ideas and presentations.",
     ],
   },
 ];
@@ -337,8 +435,8 @@ const Archives = [
     points: [
       "Shark Tank event hosted by E-Cell of STME, conducted offline and online for participant convenience.",
       "Three rounds: quiz, pitching, advertising.",
-      "Top teams select product for pitch, others choose from remaining options."
-,      "Pitching judged on presentation, participation, etc.",
+      "Top teams select product for pitch, others choose from remaining options.",
+      "Pitching judged on presentation, participation, etc.",
       "Advertising reel posted for voting.",
       "Single round with teams presenting ideas and solutions.",
       "Judged by faculty member Dr. Toral Shah.",
@@ -367,7 +465,7 @@ const Archives = [
   {
     title: "Indo-German Collaboration Session",
     link: "https://www.instagram.com/reel/C0zSHpuxN_E/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    icon:COLLABS,
+    icon: COLLABS,
     iconBg: "#383E56",
     date: "8th Dec 2023",
     points: [
@@ -384,7 +482,7 @@ const Archives = [
   {
     title: "Tradiosity",
     link: "https://www.linkedin.com/posts/e-cell-nmims-navi-mumbaii_empowering-future-investors-the-tradiosity-activity-7133394072429314050-Z3TM?utm_source=share&utm_medium=member_desktop",
-    icon:COLLABS,
+    icon: COLLABS,
     iconBg: "#383E56",
     date: "12th Oct 2023",
     points: [
@@ -446,7 +544,7 @@ const Archives = [
     iconBg: "#383E56",
     date: "Jan 2023",
     points: [
-      "9 months long event conducted by E-cell of IIT Bombay.",  
+      "9 months long event conducted by E-cell of IIT Bombay.",
       "NMIMS Navi Mumbai ranked 46th in this nationwide event",
     ],
   },
@@ -458,7 +556,7 @@ const Archives = [
     date: "22th Dec 2023",
     points: [
       "To create awareness in students about start up incubation and start up ecosystem.",
-       "Expose students to case studies of social innovation and converting them into startups.",
+      "Expose students to case studies of social innovation and converting them into startups.",
     ],
   },
   {
@@ -546,4 +644,12 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects ,TeamNames,Archives};
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  TeamNames,
+  Archives,
+};

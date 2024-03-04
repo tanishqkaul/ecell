@@ -79,11 +79,10 @@ const ArchiveS = () => {
   return (
     <>
       <Slider />
-      <motion.div variants={textVariant()}>
-      <div className="pt-10"></div>
+      <div className="pt-10">
         <p className={styles.sectionSubText}>Some Important Events so far or...</p>
         <h2 className={styles.sectionHeadText}>Happenings!</h2>
-      </motion.div>
+      </div>
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
